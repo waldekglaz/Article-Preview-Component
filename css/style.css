@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ecf2f8;
+}
+
+.component {
+  margin: 4rem auto 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  background-color: #fff;
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.img-container {
+  height: 12rem;
+  background-image: url("../images/drawers.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.text-container {
+  padding: 3rem 1rem 1rem;
+}
+
+.text-container h2 {
+  color: #48556a;
+  margin-bottom: 1rem;
+}
+
+.text-container p {
+  color: #6d7f97;
+  margin-bottom: 2rem;
+}
+
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.avatar img {
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.share-btn {
+  background-color: #ecf2f8;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.share-btn img {
+  height: 1rem;
+}
+
+.author {
+  position: relative;
+}
+
+.author-text {
+  margin-left: -3rem;
+}
+
+.author-text .name {
+  color: #48556a;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.author-text .post-date {
+  color: #6d7f97;
+}
+
+.share-box {
+  position: absolute;
+  width: 120%;
+  left: -2rem;
+  bottom: -400%;
+  height: 90px;
+  background-color: #48556a;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: ease-in 0.8s;
+  transition: ease-in 0.8s;
+}
+
+.share-box p {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}
+
+.share-box img {
+  margin-left: -2rem;
+}
+
+.share-box :last-child {
+  margin-left: 1rem;
+}
+
+.share-box .close {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.share-box.active {
+  bottom: -35%;
+}
+
+.attribution {
+  padding: 0 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=style.css.map */

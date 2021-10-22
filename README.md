@@ -28,8 +28,8 @@ Users should be able to:
 - Desktop active state
   ![](./images/Desktop_active.png)
   ![](./images/Mobile.png)
-  - Mobile active state
-    ![](./images/Mobile_active.png)
+- Mobile active state
+  ![](./images/Mobile_active.png)
 
 ### Links
 

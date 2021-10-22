@@ -24,9 +24,12 @@ Users should be able to:
 ### Screenshots
 
 ![](./images/Desktop.png)
-![](./images/Desktop_active.png)
-![](./images/Mobile.png)
-![](./images/Mobile_active.png)
+
+- Desktop active state
+  ![](./images/Desktop_active.png)
+  ![](./images/Mobile.png)
+  - Mobile active state
+    ![](./images/Mobile_active.png)
 
 ### Links
 
